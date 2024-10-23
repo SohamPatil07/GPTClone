@@ -26,7 +26,7 @@ for message in st.session_state.messages:
 uploaded_file = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"], key="file_uploader")
 
 # Chat input
-prompt = st.chat_input("Ask me something...")
+prompt = st.chat_input("Ask me something...") 
 
 if prompt:
     # Add user message to chat history
